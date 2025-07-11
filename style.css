@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+.mobile-content {
+    display: none;
+}
+
+.desktop-message {
+    display: none;
+}
+
+
+.typewriter{
+display: grid;
+white-space: nowrap;
+text-align: center;
+
+}
+
+.typewriter p{
+display: flex;
+flex-wrap: wrap;
+font-size: 50px;
+justify-content: center;
+align-items: flex-start;
+}
+
+
+@media  (max-width:600px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #000000 ;
+}
+
+body{
+overflow-x: hidden;
+/* display: flex; */
+background-color: #000000 !important;
+}
+
+#h1{
+    font-size:20px;
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-style: normal;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-color: #000000 !important;
+    z-index: 2 !important;
+    color: #fff;
+}
+
+
+.scroll{
+    margin-top: 80px;
+    
+}
+
+img{
+    border-radius: 30px;
+    border-color: rgb(253, 14, 253) !important;
+}
+
+.dropdown{
+    margin-top: 70px;
+    margin: 70px;
+    position: relative;
+    left: -40px;
+}
+
+.carou{
+    padding: 10px 90px 20px 90px !important;
+    border-color: purple !important;
+    border: 10px 10px 10px 10px;
+   background-color: purple !important;
+   z-index: 999;
+   
+}
+
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    background-color: #000000 !important;
+    
+}
+
+.title2{
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(224, 0, 224);
+  position: relative;
+  top: 10px;
+
+}
+
+.breadcrumb{
+    justify-content: center;
+    font-size: 12px;
+}
+
+a{
+    color: orangered !important;
+    text-decoration: none !important;
+}
+
+.text2{
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+     color: orangered !important;
+     background-color: #000000 !important;
+}
+
+button{
+    color: #fff !important;
+}
+
+#card>img{
+    border-radius: 0px !important;
+    border-color: rgb(253, 14, 253) !important;
+}
+
+}
