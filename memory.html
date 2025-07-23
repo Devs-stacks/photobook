@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEMORIES</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylez.css">
-    
-    
+    <link rel="stylesheet" href="memories.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
+
+
+     <!--Do not display-->
+               <div class="desktop-message">
+                <!-- Desktop-specific message goes here -->
+                <div class="typewriter">
+                <p>This Website is best viewed on <br> <span>a mobile device</span></p>
+                </div>
+                </div>
+                <!--Do not display-->
+
+
+<!--Memories-->
+<div class="mobile-content">
     <h1 style="text-align: center;">MEMORIES</h1>
     <section id="pics">
         <h4 class="header">PICTURES</h4>
         <div class="gallery">
+            <div class="gallery-center">
             <div class="galleryrow">
                 <div class="gallerycolumn">
                     <img src="img/Anonymnous.jpeg" alt="Picture 1">
@@ -28,17 +43,19 @@
             
             </div>
             
-
+</div>
         </div>
 
     </section>
     
     <!--section divides the page into two in order to use link to navigate through the page-->
-    
 
     <section id="vids">
         <h4 class="header">VIDEOS</h4>
-
     </section>
+</div>
+<!--tags-->
+    <script src="script.js"></script>
+    <!--tags-->
 </body>
 </html>
