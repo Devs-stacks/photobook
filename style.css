@@ -70,10 +70,10 @@ img{
 }
 
 .dropdown{
-    margin-top: 70px;
-    margin: 70px;
+    margin-top: 90px;
+    margin: 90px;
     position: relative;
-    left: -40px;
+    left: -30px;
 }
 
 .carou{
@@ -84,6 +84,23 @@ img{
    z-index: 999;
    
 }
+.carou2{
+    padding: 10px 70px 20px 90px !important;
+    border-color: purple !important;
+    border: 10px 10px 10px 10px;
+   background-color: purple !important;
+   z-index: 999;
+   
+}
+.carou3{
+    padding: 10px 100px 20px 90px !important;
+    border-color: purple !important;
+    border: 10px 10px 10px 10px;
+   background-color: purple !important;
+   z-index: 999;
+   
+}
+
 
 .title{
     font-family: "Poppins", sans-serif;
@@ -118,6 +135,9 @@ img{
 a{
     color: orangered !important;
     text-decoration: none !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .text2{
@@ -136,5 +156,21 @@ button{
     border-radius: 0px !important;
     border-color: rgb(253, 14, 253) !important;
 }
+
+.dropdown>.carou2> a {
+    color:#fff !important;
+    text-decoration: none !important;
+    background-color:purple !important;
+    text-align: center !important;
+}
+.dropdown>.carou3> a {
+    color:#fff !important;
+    text-decoration: none !important;
+    background-color:purple !important;
+    text-align: center !important;
+}
+
+
+
 
 }
