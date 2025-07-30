@@ -70,12 +70,10 @@ img{
 }
 
 .dropdown{
-    margin-top: 90px;
-    margin: 90px;
+    margin-top: 150px;
+    margin: 50px;
     position: relative;
-    left: -30px;
-    justify-content: center;
-    align-items: center;
+    top: 50px;
 
 }
 
@@ -174,8 +172,5 @@ button{
     background-color:purple !important;
     text-align: center !important;
 }
-
-
-
 
 }
