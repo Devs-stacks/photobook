@@ -237,7 +237,7 @@ export const studentData = {
       "others": ""
     }
   ],
-  "SS3C": [
+  "SS3c": [
     {
       "name": "OKUNIYI ABDULMALIK ADEWALE",
       "date_of_birth": "2/23/2009",
@@ -516,4 +516,5 @@ export const studentData = {
       "others": "None."
     }
   ]
+
 }
