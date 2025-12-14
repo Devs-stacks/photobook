@@ -36,12 +36,19 @@ align-items: flex-start;
     font-weight: 500;
     font-style: normal;
     background-color: #000000 ;
+    color: #fff !important;
 }
 
 body{
 overflow-x: hidden;
 /* display: flex; */
 background-color: #000000 !important;
+
+}
+
+
+data-bs-content{
+    color: #fff;
 }
 
 #h1{
@@ -63,6 +70,9 @@ background-color: #000000 !important;
     margin-top: 80px;
     
 }
+
+
+
 
 img{
     border-radius: 30px;
@@ -182,6 +192,10 @@ button{
     justify-content: center;
     align-items: center;
     color: orangered !important;
+}
+
+i{
+        color: orangered !important;
 }
 
 }
