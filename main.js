@@ -1,5 +1,6 @@
 import { studentData } from './data.js';
 
+
 document.addEventListener('DOMContentLoaded', function() {
     var currentpage = window.location.pathname.split('/').pop().replace(".html", "")
     var currentStudentData = studentData[currentpage]
@@ -7,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function stu(name, phonenumber, short, whatsapp, fb, ig, sn, tktk) {
         return `
-        <div class="card mb-3" style="max-width: 540px; margin-top: 50px; border-color: purple;">
+        <div class="card mb-3" style="max-width: 540px; margin-top: 50px; border-color:orangered;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="Profile Pisc/${name.toLowerCase()}.jpg" class="img-fluid rounded-start" alt="${name}">
@@ -17,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h5 class="card-title text-white">${name}</h5>
                 <p class="card-text text-white">${phonenumber}</p>
                 <p class="card-text text-white"><small class="text-body-secondary">${short}</small></p>
-                <div class="d-flex flex-wrap gap-2 social">
+                <div class="d-flex flex-wrap gap-2 social text-light">
                   <button type="button" class="btn btn-dark" data-bs-toggle="popover" data-bs-content="${whatsapp || 'Not available'}">
                     <i class="bi bi-whatsapp"></i>
                   </button>
